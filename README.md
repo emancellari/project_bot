@@ -21,7 +21,7 @@ This project is a simple web-based chatbot application that can respond to user 
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/yourusername/chatbot_project.git
+    git clone https://github.com/emancellari/project_bot.git
     cd chatbot_project
     ```
 
