@@ -76,7 +76,7 @@
             const chatHistory = document.getElementById('chat-history');
             const questionEntry = document.createElement('div');
             questionEntry.classList.add('chat-entry', 'question');
-            questionEntry.innerText = 'You: ' + question;
+            questionEntry.innerText = 'Student: ' + question;
             chatHistory.appendChild(questionEntry);
             chatHistory.scrollTop = chatHistory.scrollHeight;
 
@@ -92,7 +92,7 @@
             const data = await response.json();
             const answerEntry = document.createElement('div');
             answerEntry.classList.add('chat-entry', 'answer');
-            answerEntry.innerText = 'Bot: ' + data.answer;
+            answerEntry.innerText = 'Computer: ' + data.answer;
             chatHistory.appendChild(answerEntry);
             chatHistory.scrollTop = chatHistory.scrollHeight;
         }
@@ -132,7 +132,7 @@
     </script>
 </head>
 <body>
-    <h1>Chatbot</h1>
+    <h1>Algorithms@Enea</h1>
     <div id="chat-container">
         <div id="chat-history"></div>
         <input type="text" id="question" placeholder="Ask a question">
